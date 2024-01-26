@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  fast:
+    build:
+      context: .
+    container_name: fastapi-container
+    restart: always
+    ports:
+      - "8000:8000"

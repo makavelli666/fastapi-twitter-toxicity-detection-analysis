@@ -1,0 +1,10 @@
+#docker-compose_scraping.yml
+
+version: '3'
+
+services:
+  scraping:
+    build:
+      context: .
+    container_name: scraping-container
+    restart: always
